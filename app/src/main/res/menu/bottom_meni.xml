@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/ic_home"
+        android:title="Home" />
+    <item
+        android:id="@+id/categoriesFragment"
+        android:icon="@drawable/ic_menu"
+        android:title="Categories" />
+    <item
+        android:id="@+id/menuFragment"
+        android:icon="@drawable/ic_menu_symbol_of_three_parallel_lines"
+        android:title="Menu" />
+    <item
+        android:id="@+id/saleFragment"
+        android:icon="@drawable/ic_discount"
+        android:title="Sales" />
+</menu>
