@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "584093102003",
+    "firebase_url": "https://retail-app-14f9b.firebaseio.com",
+    "project_id": "retail-app-14f9b",
+    "storage_bucket": "retail-app-14f9b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:584093102003:android:6865f27d40e0632933e5c6",
+        "android_client_info": {
+          "package_name": "com.example.retailapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "584093102003-ekivbq5i2b7vku66sct51o5sa79pud5o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlOAFYDd3ihfefox3vMonBMhFVHGevACk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "584093102003-ekivbq5i2b7vku66sct51o5sa79pud5o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
