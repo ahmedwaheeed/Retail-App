@@ -8,4 +8,6 @@ public interface WebServices {
     @GET("products")
     Call<ProductsResponse> getProducts();
 
+    @GET("categories")
+    Call<CategoriesResponse> getCategories();
 }
