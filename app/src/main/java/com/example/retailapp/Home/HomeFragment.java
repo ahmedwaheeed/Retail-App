@@ -12,6 +12,7 @@ import androidx.recyclerview.widget.DefaultItemAnimator;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -29,6 +30,8 @@ import java.util.ArrayList;
 import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
+
+import static android.content.ContentValues.TAG;
 
 public class HomeFragment extends Fragment {
 
@@ -122,6 +125,7 @@ public class HomeFragment extends Fragment {
 
                 Toast.makeText(requireContext(), "Couldn't load data", Toast.LENGTH_SHORT).show();
 
+                Log.d(TAG, "onFailure: " + t.getMessage());
             }
         });
 
